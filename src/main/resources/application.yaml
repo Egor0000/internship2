@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://127.0.0.1:3306/main_database2
+    username: root
+    password: 123456789!
+    driver-class-name: org.mariadb.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+  activemq:
+    pool:
+      max-connections: 10
+server:
+  port: 8443
